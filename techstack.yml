@@ -1,0 +1,696 @@
+repo_name: larabecker/formio
+report_id: f1218c38db139a51f7bcd74a8dd921ed
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-15T18:00:41+00:00'
+requested_by: travist
+provider: github
+branch: master
+detected_tools_count: 44
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/larabecker/formio
+  detection_source: Repo Metadata
+- name: Nunjucks
+  description: A templating language for JavaScript
+  website_url: https://mozilla.github.io/nunjucks/
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1637/Microsoft.VisualStudio.Services.Icons.Default
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Zack Urben
+  last_updated_on: 2015-12-30 02:23:20.000000000 Z
+- name: Swift
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Travis Tidwell
+  last_updated_on: 2015-10-11 18:56:55.000000000 Z
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Travis Tidwell
+  last_updated_on: 2015-10-11 18:56:55.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.10.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Rahat Ahmed
+  last_updated_on: 2015-10-22 20:55:52.000000000 Z
+- name: MSSQL
+  description: It is an enterprise-level database system that is very popular for
+    Windows web servers
+  website_url: https://www.microsoft.com/en-us/sql-server
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/2445/ZKsJsucq_400x400.jpg
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Travis Tidwell
+  last_updated_on: 2015-10-11 18:56:55.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  version: 2.0.35
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Randall Knutson
+  last_updated_on: 2015-11-11 16:10:11.000000000 Z
+- name: Mongoose
+  description: MongoDB object modeling designed to work in an asynchronous environment
+  website_url: http://mongoosejs.com/
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Document Mapper (ODM)
+  image_url: https://img.stackshare.io/service/1231/0TXzZU7W_400x400.jpg
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Randall Knutson
+  last_updated_on: 2015-11-11 16:10:11.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  version: 2.7.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Travis Tidwell
+  last_updated_on: 2015-10-11 18:56:55.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/larabecker/formio/blob/master/.eslintrc
+  detection_source: ".eslintrc"
+  last_updated_by: Travis Tidwell
+  last_updated_on: 2015-10-11 18:56:55.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/larabecker/formio
+  detection_source: Repo Metadata
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 2.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Zack Urben
+  last_updated_on: 2015-10-28 20:52:30.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Travis Tidwell
+  last_updated_on: 2015-10-11 18:56:55.000000000 Z
+- name: SuperTest
+  description: A library for testing node.js HTTP servers
+  website_url: https://www.npmjs.com/package/supertest
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Zack Urben
+  last_updated_on: 2015-12-23 18:15:38.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Travis Tidwell
+  last_updated_on: 2015-10-11 18:56:55.000000000 Z
+- name: Mailgun
+  description: The Email Service for Developers.
+  website_url: http://mailgun.com
+  open_source: false
+  hosted_saas: true
+  category: Communications
+  sub_category: Transactional Email
+  image_url: https://img.stackshare.io/service/44/ICON_MAILGUN_NOFX.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Randall Knutson
+  last_updated_on: 2015-12-17 21:56:14.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Travis Tidwell
+  last_updated_on: 2015-10-11 18:56:55.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 3.10.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Zack Urben
+  last_updated_on: 2015-12-11 22:32:05.000000000 Z
+- name: Nodemailer
+  description: A module for Node.js applications to allow email sending
+  website_url: http://www.nodemailer.com/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Transactional Email
+  image_url: https://img.stackshare.io/service/2862/qr2-jCLr.jpg
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Zack Urben
+  last_updated_on: 2015-12-30 02:23:20.000000000 Z
+- name: Q
+  description: A promise library for JavaScript
+  website_url: https://github.com/kriskowal/q
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/4697/default_2d5a1d7c5eb520cdeb7db120e767345004a1d0d4.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Travis Tidwell
+  last_updated_on: 2015-10-11 18:56:55.000000000 Z
+- name: JSONStream
+  description: RawStream.pipe
+  package_url: https://www.npmjs.com/JSONStream
+  version: 1.0.4
+  license: MIT,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16681/default_9012166d3e51cea5db6b4e69c80ace1c50b7509d.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Travis Tidwell
+  last_updated_on: 2015-10-11 18:56:55.000000000 Z
+- name: adm-zip
+  description: Javascript implementation of zip for nodejs with support for electron
+    original-fs
+  package_url: https://www.npmjs.com/adm-zip
+  version: 0.4.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16663/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Travis Tidwell
+  last_updated_on: 2015-10-11 18:56:55.000000000 Z
+  vulnerabilities:
+  - name: Arbitrary File Write in adm-zip
+    cve_id: CVE-2018-1002204
+    cve_url: https://github.com/advisories/GHSA-3v6h-hqm4-2rg6
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.4.11
+- name: async
+  description: Higher-order functions and common patterns for asynchronous code
+  package_url: https://www.npmjs.com/async
+  version: 1.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15851/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Travis Tidwell
+  last_updated_on: 2015-10-11 18:56:55.000000000 Z
+- name: bcrypt
+  description: A bcrypt library for NodeJS
+  package_url: https://www.npmjs.com/bcrypt
+  version: 0.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16526/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Travis Tidwell
+  last_updated_on: 2015-10-11 18:56:55.000000000 Z
+  vulnerabilities:
+  - name: Integer Overflow or Wraparound and Use of a Broken or Risky Cryptographic
+      Algorithm in bcrypt
+    cve_id: CVE-2020-7689
+    cve_url: https://github.com/advisories/GHSA-5wg4-74h6-q47v
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 5.0.0
+- name: body-parser
+  description: Node.js body parsing middleware
+  package_url: https://www.npmjs.com/body-parser
+  version: 1.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Travis Tidwell
+  last_updated_on: 2015-10-11 18:56:55.000000000 Z
+- name: chance
+  description: Chance - Utility library to generate anything random
+  package_url: https://www.npmjs.com/chance
+  version: 0.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16691/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Travis Tidwell
+  last_updated_on: 2015-10-11 18:56:55.000000000 Z
+- name: clone
+  description: Deep cloning of objects and arrays
+  package_url: https://www.npmjs.com/clone
+  version: 1.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16398/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Travis Tidwell
+  last_updated_on: 2016-04-13 21:04:51.000000000 Z
+- name: colors
+  description: Get colors in your node.js console
+  package_url: https://www.npmjs.com/colors
+  version: 1.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15908/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Travis Tidwell
+  last_updated_on: 2015-10-11 18:56:55.000000000 Z
+- name: config
+  description: Configuration control for production node deployments
+  package_url: https://www.npmjs.com/config
+  version: 1.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16353/default_b5c8f3c8e46d368f74a982d06d7f13291fe651ea.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Zack Urben
+  last_updated_on: 2016-01-13 23:32:54.000000000 Z
+- name: cors
+  description: Node.js CORS middleware
+  package_url: https://www.npmjs.com/cors
+  version: 2.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Travis Tidwell
+  last_updated_on: 2015-10-11 18:56:55.000000000 Z
+- name: csv
+  description: CSV parser with simple api
+  package_url: https://www.npmjs.com/csv
+  version: 0.4.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Travis Tidwell
+  last_updated_on: 2015-10-11 18:56:55.000000000 Z
+- name: debug
+  description: Small debugging utility
+  package_url: https://www.npmjs.com/debug
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Travis Tidwell
+  last_updated_on: 2015-10-11 18:56:55.000000000 Z
+  vulnerabilities:
+  - name: debug Inefficient Regular Expression Complexity vulnerability
+    cve_id: CVE-2017-20165
+    cve_url: https://github.com/advisories/GHSA-9vvw-cc9w-f27h
+    detected_date: Jan 11
+    severity: high
+    first_patched: 2.6.9
+  - name: Regular Expression Denial of Service in debug
+    cve_id: CVE-2017-16137
+    cve_url: https://github.com/advisories/GHSA-gxpj-cx7g-858c
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.6.9
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.10.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Rahat Ahmed
+  last_updated_on: 2015-10-22 20:55:52.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: fs-extra
+  description: Fs-extra contains methods that aren't included in the vanilla Node.js
+    fs package
+  package_url: https://www.npmjs.com/fs-extra
+  version: 0.26.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Zack Urben
+  last_updated_on: 2015-12-23 18:15:38.000000000 Z
+- name: joi
+  description: Object schema validation
+  package_url: https://www.npmjs.com/joi
+  version: 7.1.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16173/default_351a89f21bfb241e8dabeb1444cf56f529948708.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Travis Tidwell
+  last_updated_on: 2015-10-11 18:56:55.000000000 Z
+- name: jscoverage
+  description: A javascript coverage tool
+  package_url: https://www.npmjs.com/jscoverage
+  version: 0.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17242/default_48f040bdc5f6c639c70bf350f8b8158ede27286c.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Zack Urben
+  last_updated_on: 2015-10-28 20:52:30.000000000 Z
+- name: jsonwebtoken
+  description: JSON Web Token implementation
+  package_url: https://www.npmjs.com/jsonwebtoken
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16155/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Travis Tidwell
+  last_updated_on: 2015-10-11 18:56:55.000000000 Z
+  vulnerabilities:
+  - name: jsonwebtoken has insecure input validation in jwt.verify function
+    cve_id: CVE-2022-23529
+    cve_url: https://github.com/advisories/GHSA-27h2-hvpr-p74q
+    detected_date: Dec 22
+    severity: high
+    first_patched: 9.0.0
+  - name: 'jsonwebtoken unrestricted key type could lead to legacy keys usage '
+    cve_id: CVE-2022-23539
+    cve_url: https://github.com/advisories/GHSA-8cf7-32gw-wr33
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+  - name: jsonwebtoken vulnerable to signature validation bypass due to insecure default
+      algorithm in jwt.verify()
+    cve_id: CVE-2022-23540
+    cve_url: https://github.com/advisories/GHSA-qwph-4952-7xr6
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+  - name: jsonwebtoken's insecure implementation of key retrieval function could lead
+      to Forgeable Public/Private Tokens from RSA to HMAC
+    cve_id: CVE-2022-23541
+    cve_url: https://github.com/advisories/GHSA-hjrf-2m68-5959
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+- name: method-override
+  description: Override HTTP verbs
+  package_url: https://www.npmjs.com/method-override
+  version: 2.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16758/default_92482df1bcbe0d3a46cc1d597c9687a42da1cd04.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Zack Urben
+  last_updated_on: 2015-10-28 20:52:30.000000000 Z
+  vulnerabilities:
+  - name: method-override ReDoS when untrusted user input passed into X-HTTP-Method-Override
+      header
+    cve_id: CVE-2017-16136
+    cve_url: https://github.com/advisories/GHSA-qx2f-477c-35rq
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.3.10
+- name: progress
+  description: Flexible ascii progress bar
+  package_url: https://www.npmjs.com/progress
+  version: 1.1.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16410/default_536789d2630ed352dc721a1c915ab456b7660201.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Rahat Ahmed
+  last_updated_on: 2015-10-22 20:55:52.000000000 Z
+- name: prompt
+  description: A beautiful command-line prompt for node.js
+  package_url: https://www.npmjs.com/prompt
+  version: 0.2.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16207/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Travis Tidwell
+  last_updated_on: 2015-10-11 18:56:55.000000000 Z
+- name: request
+  description: Simplified HTTP request client
+  package_url: https://www.npmjs.com/request
+  version: 2.64.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Travis Tidwell
+  last_updated_on: 2015-10-11 18:56:55.000000000 Z
+  vulnerabilities:
+  - name: Server-Side Request Forgery in Request
+    cve_id: CVE-2023-28155
+    cve_url: https://github.com/advisories/GHSA-p8p7-x288-28g6
+    detected_date: Mar 17
+    severity: moderate
+    first_patched: 
+  - name: Remote Memory Exposure in request
+    cve_id: CVE-2017-16026
+    cve_url: https://github.com/advisories/GHSA-7xfp-9c55-5vqj
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.68.0
+- name: restler
+  description: An HTTP client library for node.js
+  package_url: https://www.npmjs.com/restler
+  version: 3.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17496/default_10a98ebc0146ab94b0fde6f7013c1279c82e4135.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Travis Tidwell
+  last_updated_on: 2015-10-11 18:56:55.000000000 Z
+- name: semver
+  description: The semantic version parser used by npm
+  package_url: https://www.npmjs.com/semver
+  version: 5.1.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18809/default_dad3dc9dde4b82dc2a7bd32aa091165887abe57b.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Zack Urben
+  last_updated_on: 2015-12-23 18:15:38.000000000 Z
+  vulnerabilities:
+  - name: semver vulnerable to Regular Expression Denial of Service
+    cve_id: CVE-2022-25883
+    cve_url: https://github.com/advisories/GHSA-c2qf-rxjj-qqgw
+    detected_date: Jun 23
+    severity: moderate
+    first_patched: 5.7.2
+- name: through
+  description: Simplified stream construction
+  package_url: https://www.npmjs.com/through
+  version: 2.3.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16309/default_8b65a873fd3277d73483d6846fa38192391abf23.png
+  detection_source_url: https://github.com/larabecker/formio/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Zack Urben
+  last_updated_on: 2015-12-23 18:15:38.000000000 Z
